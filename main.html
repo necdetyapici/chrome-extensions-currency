@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+        <title>Live Currency</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js" ></script>
+        <style>
+            body {
+              background-color: rgb(0, 0, 0);
+            }
+            a {
+                color: brown;
+                font:bold;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            a:hover {
+                color:brown;
+
+            } 
+            img{
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body style="margin: 5px;">
+
+    <ul class="nav nav-tabs nav-fill justify-content-center border-0" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link " id="currency-tab" data-toggle="tab" href="#currency"  aria-controls="home" aria-selected="false">Currency</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link " id="crypto-tab" data-toggle="tab" href="#crypto"  aria-controls="profile" aria-selected="false">Cryptocurrency</a>
+        </li>
+    </ul>
+    <div class="tab-content  border-top-0 "  style="width: 325px;" id="myTabContent">
+        <div class="tab-pane fade"  id="currency" role="tabpanel" aria-labelledby="currency-tab">
+            <iframe id="mainframe"
+                    width="325px"
+                    height="100px"
+                    frameborder="0"
+                    allowtransparency="true"
+                    marginwidth="0"
+                    marginheight="0">
+            </iframe>
+
+        </div>
+        <div class="tab-pane fade" id="crypto" role="tabpanel" aria-labelledby="crypto-tab">
+            <iframe id="cryptoframe"
+                    width="325px"
+                    height="100px"
+                    frameborder="0"
+                    allowtransparency="true"
+                    marginwidth="0"
+                    marginheight="0">
+
+            </iframe>
+
+        </div>
+        <div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">
+            <a style="align: left; font-size: small" target="_blank" href="/options.html">Options</a>
+            <div style="float:right; font-size: small"> 
+                <a style="float: right" href="https://github.com/necdetyapici" target="_blank" rel="nofollow">
+                    <img src="css/images/github-logo-icon.png" alt="github-logo" width="20">         
+                </a> 
+                <a style="float: right" href="https://github.com/necdetyapici" target="_blank" rel="nofollow">
+                    <img src="css/images/linkedin-logo.png" alt="github-logo" width="20">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    </body>
+</html>
